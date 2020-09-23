@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Niro</title>
+  </head>
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <div id="navbar">
+        <button class="nav-button" href="">Files</button>
+        <button class="nav-button" href="">Tools</button>
+        <button class="nav-button button-pressed" href="">Chat</button>
+        <button class="nav-button" href="">Playlist</button>
+        <button class="nav-button button-pressed" href="">Participants</button>
+        <button class="nav-button button-pressed" href="">Notes</button>
+        <button class="nav-button" href="">Invite</button>
+      </div>
+    </nav>
+  </header>
+  <body>
+    
+
+    <div id="main">
+        <!-- Big main windows for videos -->
+    </div>
+    <!-- Side windows -->
+    <div id="side-windows">
+      <!-- Notes -->
+      <div class="window" id="notes">
+        <div class="window-bar">
+          <div class="window-name">NOTES <span class="number"> 1</span></div>
+          <a class="exit-x" href="#">X</a>
+        </div>
+
+        <div class="window-content">
+          <div class="note">
+            <p class="note-name">Note 1</p>
+            <p class="note-date">Aug 31, 2020, 17:34</p>
+          </div>
+        </div>
+        <div class="add-note-button">
+          <i class="fas fa-plus-circle fa-3x"></i>
+        </div>
+      </div>
+      <div class="window" id="participants">
+        <!-- Participants -->
+        <div class="window-bar">
+          <div class="window-name">
+            PARTICIPANTS <span class="number"> 1</span>
+          </div>
+          <a class="exit-x" href="#">X</a>
+        </div>
+        <div class="participant">
+          <img
+            class="participant-img"
+            src="./assets/images/circle-cropped.png"
+            alt=""
+          />
+          <p>⍟ Michael Zinoviev</p>
+          <i class="fas fa-laptop"></i>
+        </div>
+      </div>
+      <div class="window" id="chat">
+        <!-- Room chat -->
+        <div class="window-bar">
+          <div class="window-name">
+            <span class="arrow-back"> &#8592; </span>
+            ROOM CHAT
+          </div>
+          <a class="exit-x" href="#">X</a>
+        </div>
+        <div class="msg-write">
+          <textarea placeholder="Type your message here..."></textarea>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <footer>
+    <!-- arrows -->
+    <a class="arrow arrow-left" role="button"></a>
+    <a class="arrow arrow-right" role="button"></a>
+  </footer>
+</html>
